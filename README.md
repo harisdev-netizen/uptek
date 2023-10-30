@@ -37,3 +37,4 @@ I welcome contributions to improve the Software House Landing Page. To contribut
 
 5. Create a pull request, detailing the changes and improvements you made.
 
+I would appreciate your contributions!
