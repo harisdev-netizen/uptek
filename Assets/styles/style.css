@@ -196,11 +196,11 @@ nav .nav-item {
 }
 
 /* Fiber section */
-.fiber-section h3 {
+.uptek-section h3 {
   color: rgb(28, 28, 228);
 }
 
-.fiber-section h1 {
+.uptek-section h1 {
   font-size: 3rem;
   margin-bottom: 2rem;
 }
@@ -474,7 +474,7 @@ footer {
     align-items: center;
   }
 
-  .fiber-section h1 {
+  .uptek-section h1 {
     font-size: 1.2rem;
   }
 

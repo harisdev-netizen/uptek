@@ -1,6 +1,6 @@
 # Software House Landing Page
 
-![Demo](demo.gif)
+![Uptek](https://example.com/path-to-your-image.png)
 
 I have completed this project using HTML, CSS, and the Animate on Scroll library to create beautiful scrolling animations. This project is a landing page for a Software House, showcasing our web development skills and design expertise. ✨
 
