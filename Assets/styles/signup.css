@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    overflow-x: hidden;
+}
+
+.bd-container{
+    width: 100%;
+    min-height: 80vh;
+    padding: 0 80px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+.signup-form{
+    max-width: 500px;
+    background-color: #fff;
+	border-radius: 10px;
+	padding: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.signup-form h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 1.3rem;
+}
+.signup-form h1{
+    padding-bottom: 1.3rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.signup-form .label{
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.signup-form .text-input{
+    width: 100%;
+    padding: 1em;
+	border-radius: 3px;
+	border: 1px solid rgb(206, 206, 206);
+}
+.inputt{
+    position: absolute;
+    max-width: 420px;
+}
+.signup-form .eye{
+    position: relative;
+    left: 375px;
+    top: 10px;
+}
+
+.toc-container{
+    display: flex;
+}
+.toc-text{
+    width: 90%;
+    font-weight: 400;
+    font-size: 1rem;
+	margin-left: 1em;
+    margin-bottom: 1rem;
+}
+.toc-text span{
+    font-weight: 600;
+    color:rgb(14, 14, 223);
+}
+.already{
+    margin-top: 1rem;
+    text-align: center;
+}
+.already span{
+    color: rgb(14, 14, 223);
+}
+.button{
+    display: inline-block;
+    background-color: rgb(14, 14, 223);
+    color: #fff;
+    width: 100%;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    border: none;
+    transition: 0.3s;
+    border-radius: .25rem;
+}
+.button:hover {
+    opacity: 80%;
+}
+.input{
+    display: flex;
+}
+.portfolio{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 3rem;
+    margin-left: 10rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 4rem 3rem 4rem 3rem;
+    background: rgb(43, 43, 184);
+    border-radius: .5rem;
+}
+.portfolio .text-area{
+    margin-top: 5rem;
+    text-align: center;
+}
+.portfolio .text-area h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.mock-img{
+    max-width: 400px;
+}
+.mock-img img{
+    width: 100%;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot1{
+      background-color: #fff;
+  }
+  
+  /* Media queries */
+
+  @media (max-width: 768px){
+    html{
+        overflow-x: hidden;
+    }
+    .bd-container{
+        min-height: 50vh;
+        padding: 30px 20px 0 20px;
+    }
+      .portfolio{
+          display: none;
+    }
+    .signup-form{
+        max-width: 500px;
+        padding: 0;
+    }
+    .inputt{
+        position: absolute;
+        width: 100%;
+        max-width: 350px;
+    }
+    .signup-form .eye{
+        position: relative;
+        left: 310px;
+        top: 10px;
+    }
+    .signup-form .text-input{
+        width: 100%;
+        padding: 1em;
+    }
+    .toc-container{
+        display: flex;
+        max-width: 500px;
+    }
+    .toc-text{
+        width: 100%;
+    }
+    .button{
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    .toc-text span{
+        font-weight: 600;
+        color:rgb(14, 14, 223);
+    }
+    .already{
+        padding-top: 1.5rem;
+        text-align: center;
+        font-size: .8rem;
+    }
+  }
