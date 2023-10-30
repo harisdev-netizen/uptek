@@ -22,3 +22,19 @@ I have completed this project using HTML, CSS, and the Animate on Scroll library
 
    ```bash
    git clone https://github.com/harisdev-netizen/uptek
+
+## How to Contribute
+
+I welcome contributions to improve the Software House Landing Page. To contribute to this project, follow these steps:
+
+1. Fork this repository.
+
+2. Create a new branch for your changes.
+
+3. Make your changes and commit them.
+
+4. Push your changes to your fork.
+
+5. Create a pull request, detailing the changes and improvements you made.
+
+I would appreciate your contributions!
